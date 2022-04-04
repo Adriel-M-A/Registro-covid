@@ -1,0 +1,6 @@
+Codigo Postal: 9000, Localidad: Comodoro 
+Codigo Postal: 9200, Localidad: Esquel 
+Codigo Postal: 9105, Localidad: Gaiman 
+Codigo Postal: 9120, Localidad: Puerto Madryn 
+Codigo Postal: 9103, Localidad: Rawson 
+Codigo Postal: 9100, Localidad: Trelew 

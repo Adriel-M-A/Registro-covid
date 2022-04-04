@@ -1,0 +1,3 @@
+ID: 2, Nombre: Moderna, Cantidad de dosis: 2 
+ID: 3, Nombre: Sputnik V, Cantidad de dosis: 2 
+ID: 1, Nombre: pfizer-BiONTech, Cantidad de dosis: 2 

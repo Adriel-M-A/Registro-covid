@@ -1,0 +1,89 @@
+BORRADOR
+
+Sistema de Registro de vacunacion Covid
+
+Dada la continuidad de la pandemia, y que existen varios tipos de vacunas disponibles para ser aplicadas a la poblacion
+se ha visto la necesidad de registrar en un sistema el proceso de vacunación. Donde queda constancia de las personas que se vacunan. 
+Que vacuna se aplican, en que lugar(centro de atencion), que enfermero procede a la aplicación.
+Del registro se pretende obtener una serie de listados con los cuales controlar de mejor manera el proceso de vacunación.
+A continuacion se lista una serie de entidades de la que se deben tener registro de informacion.
+Por protocolo cada centro de atencion solo permitira por dia a unas 72 personas, de Lunes a Sabado, y el horario de atencion disponible es desde las 8 de la mañana a las 16 hs, y se debe tener un espacio de 20 minutos entre paciente.
+Se dispone de 3 enfermeros por centro de atencion.
+Turnos disponibles 8:00, 8:20... cada 20 minutos y distribuido en tres enfermeros .
+	
+	            Lunes    		Martes      ... Viernes
+				8:00 | 8:20 ... 8:00 | 8:20
+	Enfermero 1	
+	Enfermero 2	
+	Enfermero 3
+
+	Modelo a implementar en el sistema.
+	
+  - localidad
+		- cod_postal
+		- nombre
+		
+  - CentroAtencion
+		- codigo
+		- nombre
+		- domiclio
+		- telefono
+		- cod_postal
+
+  - Enfermeros		
+		- nro_documento
+		- apellido
+		- nombres
+		- telefono
+		- domicilio
+		- cod_postal -- relacion con la Localidad
+		- matricula		
+		
+  - Pacientes 
+		- nro_documento
+		- apellido
+		- nombres
+		- fecha_nac
+		- domicilio
+		- cod_postal -- relacion con la Localidad
+		- de_riesgo		
+		- vacunado
+		- observaciones		
+		
+  - TipoVacuna
+		- codigo
+		- nombre
+		- cant_dosis -- a aplicar
+		
+  - Vacunas
+		- codigo
+		- lote
+		- fecha_venc
+		- cod_tipo_vacuna
+		- cantidad
+  
+  - TurnoVacuna
+		- codigo
+		- fecha
+		- hora
+		- nro_doc_paciente
+		- nro_doc_enfermero
+		- asistio -- S/N		
+		- cod_centro_a
+		- nro_dosis
+		- cod_vacuna	
+		
+
+	Funcionalidad necesaria del sistema.
+	Registro de todas las entidades indicadas, actualizacion de informacion, poder verificar si una persona ya se encuetra vacunada.
+	Se requiere que cada ingreso de informacion sea validado, por ejemplo no ingresar nombres de localidades sin 
+	texto, pacientes con datos completos, etc.
+	Se podra registrar el turno para una personas, en una fecha/hora validos(No debe estar asignado el turno), se debe buscar si existe en el sistema, la persona, no debe existir turno ya registrado para la misma persona.	
+	
+	Listados requeridos, en principio:
+	
+	- Listar todos los pacientes vacunados en Trelew/Rawson/Puerto Madryn
+	- Listar todos los pacientes que se vacunaron con la Sputink V(Primer dosis) y aquellos que se aplicaron las 2 dosis.
+	- Listar los enfermos que dieron vacunas entres un periodo de tiempo dado.
+	
+	

@@ -1,0 +1,16 @@
+int validarFecha(char *fecha);
+int validarInt(char num[]);
+int validarString(char str[]);
+void validarDato(char str[], char palabra[]);
+int validarEntero(char palabra[]);
+int validarRango(int num, int min, int max);
+int validarCodTipoVacuna();
+int controlAtrasSalir(int num, int max);
+int validarOpcMenu(int max);
+int validarDNINoExiste();
+int validarCodPostNoExiste();
+int validarCodPostExiste();
+void validarCadenaSinNumeros(char str[], char palabra[]);
+void diaSiguiente(char fecha[]);
+void horaSiguiente(char *h);
+int validarPaciente();

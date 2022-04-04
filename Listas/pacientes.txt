@@ -1,0 +1,5 @@
+Nombre y Apellido: Rolo, Lopes - DNI: 20000002
+Nombre y Apellido: Lidia, Lopes - DNI: 20000003
+Nombre y Apellido: Coco, Lupin - DNI: 20000001
+Nombre y Apellido: Alfonso, Martines - DNI: 20000004
+Nombre y Apellido: Pepe, Peres - DNI: 20000000

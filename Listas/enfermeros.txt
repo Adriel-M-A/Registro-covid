@@ -1,0 +1,6 @@
+Doc: 30000000, Nombre y Apellido: Jose Peres,  Matricula: 0000
+Doc: 30000001, Nombre y Apellido: Sofia Lopez,  Matricula: 0001
+Doc: 30000002, Nombre y Apellido: Marcos Dante,  Matricula: 0002
+Doc: 30000003, Nombre y Apellido: Nestor Jones,  Matricula: 0003
+Doc: 30000004, Nombre y Apellido: Albertina Hernandez,  Matricula: 0004
+Doc: 30000005, Nombre y Apellido: Julio Roca,  Matricula: 0005

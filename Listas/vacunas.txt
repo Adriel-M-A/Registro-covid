@@ -1,0 +1,3 @@
+Codigo: 1, Fecha vencimiento: 2021-04-20 
+Codigo: 2, Fecha vencimiento: 2021-04-20 
+Codigo: 3, Fecha vencimiento: 2021-04-20 

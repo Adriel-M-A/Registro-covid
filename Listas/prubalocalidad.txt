@@ -1,0 +1,4 @@
+Codigo Postal: 500, Localidad: carlos 
+Codigo Postal: 9100, Localidad: Trelew 
+Codigo Postal: 9103, Localidad: Rawson 
+Codigo Postal: 9120, Localidad: Puerto Madryn 

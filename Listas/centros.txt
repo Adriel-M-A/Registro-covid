@@ -1,0 +1,5 @@
+Codigo Postal: 9000, Nombre: centro atencion 1 
+Codigo Postal: 9100, Nombre: centro atencion 2 
+Codigo Postal: 9103, Nombre: centro atencion 3 
+Codigo Postal: 9105, Nombre: centro atencion 4 
+Codigo Postal: 9120, Nombre: centro atencion 5 

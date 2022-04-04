@@ -1,0 +1,70 @@
+# Project: tpfinalTMPL
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe -D__DEBUG__
+CC       = gcc.exe -D__DEBUG__
+WINDRES  = windres.exe
+OBJ      = main.o lib/orm/orm.o lib/utils/utils.o src/localidad/localidad.o src/paciente/paciente.o src/turno_vacuna/turno_vacuna.o src/centro_atencion/centro_atencion.o src/enfermero/enfermero.o src/tipo_vacuna/tipo_vacuna.o src/vacuna/vacuna.o config/config.o src/menu/menus.o src/validaciones/validacion.o src/controlador/controladores.o src/operacion/operaciones.o
+LINKOBJ  = main.o lib/orm/orm.o lib/utils/utils.o src/localidad/localidad.o src/paciente/paciente.o src/turno_vacuna/turno_vacuna.o src/centro_atencion/centro_atencion.o src/enfermero/enfermero.o src/tipo_vacuna/tipo_vacuna.o src/vacuna/vacuna.o config/config.o src/menu/menus.o src/validaciones/validacion.o src/controlador/controladores.o src/operacion/operaciones.o
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib32" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib32" -static-libgcc  "../../../../../../../../../../../Program Files (x86)/PostgreSQL/9.2/bin/libpq.dll" -m32 -g3
+INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/PostgreSQL/9.2/include"
+CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"C:/Program Files (x86)/PostgreSQL/9.2/include"
+BIN      = tpfinalTMPL.exe
+CXXFLAGS = $(CXXINCS) -m32 -g3
+CFLAGS   = $(INCS) -m32 -g3
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+main.o: main.c
+	$(CC) -c main.c -o main.o $(CFLAGS)
+
+lib/orm/orm.o: lib/orm/orm.c
+	$(CC) -c lib/orm/orm.c -o lib/orm/orm.o $(CFLAGS)
+
+lib/utils/utils.o: lib/utils/utils.c
+	$(CC) -c lib/utils/utils.c -o lib/utils/utils.o $(CFLAGS)
+
+src/localidad/localidad.o: src/localidad/localidad.c
+	$(CC) -c src/localidad/localidad.c -o src/localidad/localidad.o $(CFLAGS)
+
+src/paciente/paciente.o: src/paciente/paciente.c
+	$(CC) -c src/paciente/paciente.c -o src/paciente/paciente.o $(CFLAGS)
+
+src/turno_vacuna/turno_vacuna.o: src/turno_vacuna/turno_vacuna.c
+	$(CC) -c src/turno_vacuna/turno_vacuna.c -o src/turno_vacuna/turno_vacuna.o $(CFLAGS)
+
+src/centro_atencion/centro_atencion.o: src/centro_atencion/centro_atencion.c
+	$(CC) -c src/centro_atencion/centro_atencion.c -o src/centro_atencion/centro_atencion.o $(CFLAGS)
+
+src/enfermero/enfermero.o: src/enfermero/enfermero.c
+	$(CC) -c src/enfermero/enfermero.c -o src/enfermero/enfermero.o $(CFLAGS)
+
+src/tipo_vacuna/tipo_vacuna.o: src/tipo_vacuna/tipo_vacuna.c
+	$(CC) -c src/tipo_vacuna/tipo_vacuna.c -o src/tipo_vacuna/tipo_vacuna.o $(CFLAGS)
+
+src/vacuna/vacuna.o: src/vacuna/vacuna.c
+	$(CC) -c src/vacuna/vacuna.c -o src/vacuna/vacuna.o $(CFLAGS)
+
+config/config.o: config/config.c
+	$(CC) -c config/config.c -o config/config.o $(CFLAGS)
+
+src/menu/menus.o: src/menu/menus.c
+	$(CC) -c src/menu/menus.c -o src/menu/menus.o $(CFLAGS)
+
+src/validaciones/validacion.o: src/validaciones/validacion.c
+	$(CC) -c src/validaciones/validacion.c -o src/validaciones/validacion.o $(CFLAGS)
+
+src/controlador/controladores.o: src/controlador/controladores.c
+	$(CC) -c src/controlador/controladores.c -o src/controlador/controladores.o $(CFLAGS)
+
+src/operacion/operaciones.o: src/operacion/operaciones.c
+	$(CC) -c src/operacion/operaciones.c -o src/operacion/operaciones.o $(CFLAGS)

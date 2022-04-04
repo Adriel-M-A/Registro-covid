@@ -1,0 +1,60 @@
+2021-05-13 16:29 | [Ingresar Localidad] Codigo Postal: 600, Localidad: jujuy 
+2021-05-13 16:32 | [Actualizar Localidad Antes] Codigo Postal: 9100, Localidad: Trelew 
+2021-05-13 16:32 | [Actualizar Localidad Despues] Codigo Postal: 9100, Localidad: trelew 
+2021-05-13 16:33 | [Actualizar Localidad Antes] Codigo Postal: 9100, Localidad: trelew 
+2021-05-13 16:33 | [Actualizar Localidad Despues] Codigo Postal: 9100, Localidad: Trelew 
+2021-05-13 16:37 | [Actualizar Localidad Antes] Codigo Postal: 9100, Localidad: Trelew 
+2021-05-13 16:37 | [Actualizar Localidad Despues] Codigo Postal: 9100, Localidad: trelew 
+2021-05-14 02:01 | [Ingresar Centro Atencion] Codigo: 6, Nombre: Centro 10 
+2021-05-14 02:02 | [Actualizar Centro Atencion Antes] Codigo: 6, Nombre: Centro 10 
+2021-05-14 02:03 | [Actualizar Centro Atencion Despues] Codigo: 6, Nombre: Centro 11 
+2021-05-14 15:17 | [Ingresar Turno Vacuna] Codigo: 5, Fecha: 2021-05-15 
+2021-05-14 15:19 | [Ingresar Turno Vacuna] Codigo: 5, Fecha: 2021-05-15 
+2021-05-14 15:20 | [Ingresar Turno Vacuna] Codigo: 5, Fecha: 2021-05-15 
+2021-05-14 15:22 | [Ingresar Turno Vacuna] Codigo: 5, Fecha: 2021-05-16 
+2021-05-14 15:24 | [Ingresar Turno Vacuna] Codigo: 5, Fecha: 2021-05-17 
+2021-05-14 15:25 | [Ingresar Turno Vacuna] Codigo: 5, Fecha: 2021-05-15 
+2021-05-14 15:27 | [Ingresar Turno Vacuna] Codigo: 5, Fecha: 2021-05-15 
+2021-05-14 15:34 | [Ingresar Turno Vacuna] Codigo: 5, Fecha: 2021-05-15 
+2021-05-14 15:40 | [Ingresar Turno Vacuna] Codigo: 5, Fecha: 2021-05-15 
+2021-05-14 15:41 | [Ingresar Turno Vacuna] Codigo: 5, Fecha: 2021-05-17 
+2021-05-14 15:42 | [Ingresar Turno Vacuna] Codigo: 5, Fecha: 2021-05-15 
+2021-05-14 15:45 | [Ingresar Turno Vacuna] Codigo: 5, Fecha: 2021-05-15 
+2021-05-14 15:46 | [Ingresar Turno Vacuna] Codigo: 5, Fecha: 2021-05-15 
+2021-05-14 15:48 | [Ingresar Turno Vacuna] Codigo: 5, Fecha: 2021-05-15 
+2021-05-14 15:53 | [Ingresar Turno Vacuna] Codigo: 5, Fecha: 2021-05-16 
+2021-05-14 15:57 | [Ingresar Turno Vacuna] Codigo: 5, Fecha: 2021-05-15 
+2021-05-14 15:59 | [Ingresar Turno Vacuna] Codigo: 5, Fecha: 2021-05-15 
+2021-05-14 16:05 | [Ingresar Turno Vacuna] Codigo: 5, Fecha: 2021-05-15 
+2021-05-14 16:06 | [Ingresar Turno Vacuna] Codigo: 5, Fecha: 2021-05-15 
+2021-05-14 16:07 | [Ingresar Turno Vacuna] Codigo: 5, Fecha: 2021-05-15 
+2021-05-14 16:08 | [Ingresar Turno Vacuna] Codigo: 6, Fecha: 2021-05-16 
+2021-05-14 16:08 | [Ingresar Turno Vacuna] Codigo: 5, Fecha: 2021-05-16 
+2021-05-14 16:12 | [Ingresar Turno Vacuna] Codigo: 5, Fecha: 2021-05-16 
+2021-05-14 16:14 | [Ingresar Turno Vacuna] Codigo: 5, Fecha: 2021-05-16 
+2021-05-14 16:14 | [Ingresar Turno Vacuna] Codigo: 6, Fecha: 2021-05-16 
+2021-05-14 16:15 | [Ingresar Turno Vacuna] Codigo: 5, Fecha: 2021-05-16 
+2021-05-14 16:15 | [Ingresar Turno Vacuna] Codigo: 5, Fecha: 2021-05-16 
+2021-05-14 16:15 | [Ingresar Turno Vacuna] Codigo: 6, Fecha: 2021-05-16 
+2021-05-14 16:16 | [Ingresar Turno Vacuna] Codigo: 5, Fecha: 2021-05-16 
+2021-05-14 16:20 | [Ingresar Turno Vacuna] Codigo: 5, Fecha: 2021-05-16 
+2021-05-14 16:20 | [Ingresar Turno Vacuna] Codigo: 6, Fecha: 2021-05-16 
+2021-05-14 16:20 | [Ingresar Turno Vacuna] Codigo: 7, Fecha: 2021-05-16 
+2021-05-14 16:21 | [Ingresar Turno Vacuna] Codigo: 6, Fecha: 2021-05-16 
+2021-05-14 16:24 | [Ingresar Turno Vacuna] Codigo: 5, Fecha: 2021-05-15 
+2021-05-14 16:24 | [Ingresar Turno Vacuna] Codigo: 6, Fecha: 2021-05-15 
+2021-05-14 16:25 | [Ingresar Turno Vacuna] Codigo: 7, Fecha: 2021-05-15 
+2021-05-14 16:26 | [Ingresar Turno Vacuna] Codigo: 5, Fecha: 2021-05-15 
+2021-05-14 16:26 | [Ingresar Turno Vacuna] Codigo: 6, Fecha: 2021-05-15 
+2021-05-14 16:27 | [Ingresar Turno Vacuna] Codigo: 5, Fecha: 2021-05-17 
+2021-05-14 16:37 | [Actualizar Centro Atencion Antes] id: 2	Cons: centro atencion 2 	Dom: Calle 2	Tel: 206 - Loc: trelew
+2021-05-14 16:37 | [Actualizar Centro Atencion Despues] id: 2	Cons: trelewito 	Dom: Calle 2	Tel: 206 - Loc: trelew
+2021-05-14 16:38 | [Actualizar Centro Atencion Antes] id: 2	Cons: trelewito 	Dom: Calle 2	Tel: 206 - Loc: trelew
+2021-05-14 16:38 | [Actualizar Centro Atencion Despues] id: 2	Cons: Centro atencion 2 	Dom: Calle 2	Tel: 206 - Loc: trelew
+2021-05-14 16:49 | [Ingresar Turno Vacuna] ID: 5, DNI Paciente: 20000001, DNI Enfermero: 30000001, Fecha: 2021-05-16, Hora: 08:00:00, Cod Centro: 2
+2021-05-14 17:42 | [Ingresar Turno Vacuna] ID: 5, DNI Paciente: 20000000, DNI Enfermero: 30000001, Fecha: 2021-05-16, Hora: 08:00:00, Cod Centro: 2
+2021-05-14 17:42 | [Ingresar Turno Vacuna] ID: 5, DNI Paciente: 20000000, DNI Enfermero: 30000001, Fecha: 2021-05-16, Hora: 08:00:00, Cod Centro: 2
+2021-05-14 17:44 | [Ingresar Turno Vacuna] ID: 6, DNI Paciente: 20000000, DNI Enfermero: 30000000, Fecha: 2021-05-15, Hora: 08:00:00, Cod Centro: 2
+2021-05-14 17:46 | [Ingresar Paciente] DNI: 40385058  - ApyNom: Galiano, Carlos - FNac: 1997-11-25 - Localidad: Rawson
+2021-05-14 17:47 | [Ingresar Paciente] DNI: 40385058  - ApyNom: Galiano, Carlos - FNac: 1997-11-25 - Localidad: Rawson
+2021-05-14 17:47 | [Ingresar Turno Vacuna] ID: 6, DNI Paciente: 40385058, DNI Enfermero: 30000003, Fecha: 2021-05-15, Hora: 08:00:00, Cod Centro: 3

@@ -1,0 +1,41 @@
+--------------------------------------- Cosas que funcionan ---------------------------------------
+
+-Listar, Ingresar, Actualizar: Localidad, Tipo de Vacuna, Vacuna.
+
+-Menus: Todos valores de retorno son los esperados. 
+Se muestran de forma individual. 
+Se sale de un submenu.
+Se vuelve para atras de un submenu.
+Opciones de menus mayores a 9.
+
+
+------------------------------------------- Falta hacer -------------------------------------------
+
+-Listar, Ingresar, Actualizar: Enfermero, Paciente, Turnos Vacuna.
+
+-Ingresar, Actualizar (control ingreso): Localidad (nombre existe?, != de " "),
+
+-Forma de ordenamiento de los listados. Donde colocar las fuciones de comparacion para qsort? 
+
+-destroyInternalProf_Impl(void *self): Enfermero, Paciente
+-*getLocalidadProfObj_Impl(void *self): Enfermero, Paciente
+
+-Posibilitar la exportación a archivos la información del sistema, desde los listados
+(el usuario deberá indicar el nombre del archivo).Considerar las opciones de ordenamiento.
+
+-Incorporar registro de log de actividades para permitir auditorías en las actualizaciones/ingresos 
+de datos del sistema.Esta opción se debe ejecutar por cada uso de actualización/ingreso de 
+información hecho por el ORM.
+
+
+--------------------------------------------- Errores ---------------------------------------------
+
+-Listar, Ingresar, Actualizar: Enfermero, Paciente. (ya no estan implementados)
+
+
+------------------------------------ Cosas que podriamos hacer ------------------------------------
+
+-Hacer que siempre que se ingresa un nombre al guardarse sea con la primera letra en Mayuscula y 
+las demas en minuscula (no importa como se ingres inicial mente). ej: aDriEl => Adriel, TReleW => Trelew.
+
+-

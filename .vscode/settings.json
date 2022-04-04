@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "includelib.h": "c",
+        "orm.h": "c",
+        "malloc.h": "c",
+        "enfermero.h": "c",
+        "utils.h": "c",
+        "includes.h": "c",
+        "validacion.h": "c"
+    }
+}
